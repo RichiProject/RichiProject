@@ -1,0 +1,13 @@
+/Users/Richi/Desktop/survival/Temp/bin/Debug/UnityEngine.dll
+/Users/Richi/Desktop/survival/Temp/bin/Debug/UnityEditor.dll
+/Users/Richi/Desktop/survival/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/Richi/Desktop/survival/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/Richi/Desktop/survival/Temp/bin/Debug/Mono.Cecil.dll
+/Users/Richi/Desktop/survival/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/Richi/Desktop/survival/Temp/bin/Debug/Unity.DataContract.dll
+/Users/Richi/Desktop/survival/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/Richi/Desktop/survival/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/Richi/Desktop/survival/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/Richi/Desktop/survival/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/Richi/Desktop/survival/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/Richi/Desktop/survival/Temp/bin/Debug/Mono.Cecil.Mdb.dll
