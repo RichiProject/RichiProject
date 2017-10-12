@@ -1,20 +1,22 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CameraPlayerFollow : MonoBehaviour {
+public class CameraPlayerFollow : MonoBehaviour
+{
 	
 	public GameObject camera_follow;
 	private Transform follow;
 	private Transform targetPosition;
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+	{
 		//targetPosition = GameObject.FindWithTag ("Player").transform;
 		targetPosition = GameObject.Find ("Character").transform;
 	}
 
-	public void CameraFollower()
+	public void CameraFollower ()
 	{ 
-		this.transform.position = Vector3.Lerp(this.transform.position, targetPosition.transform.position, 0.1f);
+		GetComponent<Rigidbody2D>().position = Vector3.Lerp (GetComponent<Rigidbody2D>().position, targetPosition.transform.position, 0.1f);
 	}
 }

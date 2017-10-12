@@ -39,7 +39,7 @@ public class JoyStick : MonoBehaviour,IDragHandler,IPointerUpHandler,IPointerDow
 
 			joystickenum = joyStickEnum.onDrag;
 
-			print ("fuckdown");
+
 
 		}
 
@@ -47,7 +47,7 @@ public class JoyStick : MonoBehaviour,IDragHandler,IPointerUpHandler,IPointerDow
 	public virtual void OnPointerDown(PointerEventData ped)
 	{
 		OnDrag (ped);
-		print ("shit");
+
 	}
 	public virtual void OnPointerUp(PointerEventData ped)
 	{

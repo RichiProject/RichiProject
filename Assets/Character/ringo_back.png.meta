@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: f0da6ebde162f44698a876a0e03fedb5
-timeCreated: 1506724475
+guid: 6fc705b4548ed49cb96abf106f27a639
+timeCreated: 1507353994
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -69,7 +69,7 @@ TextureImporter:
       pivot: {x: 0.33288288, y: 0.9038684}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      tessellationDetail: -1
     - serializedVersion: 2
       name: ringo_1
       rect:
@@ -82,7 +82,7 @@ TextureImporter:
       pivot: {x: 0.6253376, y: 0.9177949}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      tessellationDetail: -1
     - serializedVersion: 2
       name: ringo_2
       rect:
@@ -95,7 +95,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.259768}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      tessellationDetail: -1
     - serializedVersion: 2
       name: ringo_3
       rect:
@@ -108,7 +108,7 @@ TextureImporter:
       pivot: {x: 0.33288255, y: 0.9177952}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      tessellationDetail: -1
     - serializedVersion: 2
       name: ringo_4
       rect:
@@ -121,7 +121,7 @@ TextureImporter:
       pivot: {x: 0.2771759, y: 1.0013542}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      tessellationDetail: -1
     - serializedVersion: 2
       name: ringo_5
       rect:
@@ -134,7 +134,7 @@ TextureImporter:
       pivot: {x: 0.43700716, y: -0.004782881}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      tessellationDetail: -1
     outline: []
   spritePackingTag: chara
   userData: 
