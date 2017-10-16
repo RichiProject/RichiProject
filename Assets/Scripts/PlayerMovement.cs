@@ -17,10 +17,18 @@ public class PlayerMovement : MonoBehaviour
 	private bool charaRight = true;
 	private bool charaFront = true;
 	public float player_speed;
-
+	public Component[] spriteRenderes;
 	// Character Controller
 	public void CharacterControl ()
 	{
+		
+		spriteRenderes =GetComponentsInChildren<SpriteRenderer>();
+		foreach (SpriteRenderer renderer in spriteRenderes) {
+			renderer.sortingOrder  = Mathf.RoundToInt(transform.position.y) * -1;
+		}
+		 
+
+			
 		if (animator) {
 
 			h = joystick.Horizontal ();
