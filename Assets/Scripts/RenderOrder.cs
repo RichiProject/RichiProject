@@ -12,11 +12,11 @@ public class RenderOrder : MonoBehaviour
 	{
 		spriteRenderesChild = GetComponentsInChildren<SpriteRenderer> ();
 		foreach (SpriteRenderer rendererc in spriteRenderesChild) {
-			rendererc.sortingOrder = Mathf.RoundToInt (transform.position.y)*-1;
+			rendererc.sortingOrder = Mathf.RoundToInt (transform.position.y*-100);
 		}
 	
 //		spriteRenderesParent = GetComponent<SpriteRenderer> ();
 //		rencerc.sortingOrder = Mathf.RoundToInt (transform.position.y);
-
+		 
 	}
 }

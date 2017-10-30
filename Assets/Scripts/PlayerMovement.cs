@@ -24,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
 		
 		spriteRenderes =GetComponentsInChildren<SpriteRenderer>();
 		foreach (SpriteRenderer renderer in spriteRenderes) {
-			renderer.sortingOrder  = Mathf.RoundToInt(transform.position.y) * -1;
+			renderer.sortingOrder  = Mathf.RoundToInt(transform.position.y*-100) ;
 		}
 		 
 
@@ -52,8 +52,8 @@ public class PlayerMovement : MonoBehaviour
 					this.GetComponent<Animator> ().SetBool ("runDownt", false);
 					this.GetComponent<Animator> ().SetBool ("runUpt", true);
 					charaFront = false;
-					charaPos.x = charaPos.x + (h * 0.035f);
-					charaPos.y = charaPos.y + (v * 0.035f);
+					charaPos.x = charaPos.x + (h * 0.020f);
+					charaPos.y = charaPos.y + (v * 0.020f);
 //					this.GetComponent<Transform> ().position = new Vector3 (charaPos.x, charaPos.y, 0);
 					//GetComponent<Rigidbody2D>().position = new Vector3 (charaPos.x, charaPos.y, 0);
 					GetComponent<Rigidbody2D>().velocity = new Vector2 (h*player_speed, v*player_speed);
@@ -63,8 +63,8 @@ public class PlayerMovement : MonoBehaviour
 					this.GetComponent<Animator> ().SetBool ("runUpt", false);
 					this.GetComponent<Animator> ().SetBool ("runDownt", true);
 					charaFront = true;
-					charaPos.x = charaPos.x + (h * 0.0035f);
-					charaPos.y = charaPos.y + (v * 0.0035f);
+					charaPos.x = charaPos.x + (h * 0.0020f);
+					charaPos.y = charaPos.y + (v * 0.0020f);
 //					this.GetComponent<Transform> ().position = new Vector3 (charaPos.x, charaPos.y, 0);
 					GetComponent<Rigidbody2D>().velocity = new Vector2 (h*player_speed, v*player_speed);
 				}
